@@ -1,0 +1,6 @@
+*.sqlite binary
+*.jar binary
+*.ttf binary
+*.otf binary
+*.png binary
+*.webp binary

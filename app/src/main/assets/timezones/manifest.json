@@ -1,0 +1,13 @@
+{
+  "format": "2",
+  "release": "2026e",
+  "source": "https://github.com/evansiroky/timezone-boundary-builder/releases/tag/2026e",
+  "archiveSHA256": "8eefcbc3df102dc3c174983b784bde82fec00fb4a596a1ed63e8f53a92043885",
+  "license": "ODbL-1.0",
+  "polygons": "1358",
+  "points": "8285828",
+  "zones": "444",
+  "geometry": "all original vertices retained, rounded to 1e-7 degrees (under 1 cm), delta-int64 zlib rings; no polygon simplification",
+  "databaseSHA256": "d7e5f9156cffb299a8531495e6b1066268f8fe1bb70261073a0caf753c3d07cf",
+  "databaseBytes": 38023168
+}

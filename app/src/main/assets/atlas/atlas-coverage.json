@@ -1,0 +1,1566 @@
+{
+  "release": "R2024A V1.2",
+  "populationYear": 2025,
+  "sourceRecords": 11422,
+  "storedRecords": 26288,
+  "selectableRecords": 11471,
+  "coverage": {
+    "ghsl": 190,
+    "country_only": 20,
+    "capital_fallback": 48
+  },
+  "preservedLegacyIDs": 14866,
+  "legacyIDsResolvedToCentres": 9231,
+  "ambiguousLegacyIDs": [],
+  "citiesSHA256": "692c178506a3f85addf84289c40001319732f827eabb39b20475f6c734ef09dd",
+  "countries": {
+    "AFG": {
+      "name": "Afghanistan",
+      "coverage": "ghsl",
+      "cityCount": 74,
+      "reviewCount": 1
+    },
+    "WSB": {
+      "name": "Akrotiri Sovereign Base Area",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "ALD": {
+      "name": "Aland",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "ALB": {
+      "name": "Albania",
+      "coverage": "ghsl",
+      "cityCount": 6,
+      "reviewCount": 0
+    },
+    "DZA": {
+      "name": "Algeria",
+      "coverage": "ghsl",
+      "cityCount": 109,
+      "reviewCount": 0
+    },
+    "ASM": {
+      "name": "American Samoa",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "AND": {
+      "name": "Andorra",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "AGO": {
+      "name": "Angola",
+      "coverage": "ghsl",
+      "cityCount": 56,
+      "reviewCount": 1
+    },
+    "AIA": {
+      "name": "Anguilla",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "ATA": {
+      "name": "Antarctica",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "ATG": {
+      "name": "Antigua and Barbuda",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "ARG": {
+      "name": "Argentina",
+      "coverage": "ghsl",
+      "cityCount": 77,
+      "reviewCount": 1
+    },
+    "ARM": {
+      "name": "Armenia",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "ABW": {
+      "name": "Aruba",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "ATC": {
+      "name": "Ashmore and Cartier Islands",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "AUS": {
+      "name": "Australia",
+      "coverage": "ghsl",
+      "cityCount": 35,
+      "reviewCount": 1
+    },
+    "AUT": {
+      "name": "Austria",
+      "coverage": "ghsl",
+      "cityCount": 8,
+      "reviewCount": 0
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "coverage": "ghsl",
+      "cityCount": 20,
+      "reviewCount": 0
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "BJN": {
+      "name": "Bajo Nuevo Bank (Petrel Is.)",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "coverage": "ghsl",
+      "cityCount": 239,
+      "reviewCount": 10
+    },
+    "BRB": {
+      "name": "Barbados",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "KAB": {
+      "name": "Baykonur Cosmodrome",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "BLR": {
+      "name": "Belarus",
+      "coverage": "ghsl",
+      "cityCount": 14,
+      "reviewCount": 0
+    },
+    "BEL": {
+      "name": "Belgium",
+      "coverage": "ghsl",
+      "cityCount": 16,
+      "reviewCount": 0
+    },
+    "BLZ": {
+      "name": "Belize",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "BEN": {
+      "name": "Benin",
+      "coverage": "ghsl",
+      "cityCount": 24,
+      "reviewCount": 0
+    },
+    "BMU": {
+      "name": "Bermuda",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "BTN": {
+      "name": "Bhutan",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "BRT": {
+      "name": "Bir Tawil",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "coverage": "ghsl",
+      "cityCount": 13,
+      "reviewCount": 2
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "coverage": "ghsl",
+      "cityCount": 5,
+      "reviewCount": 0
+    },
+    "BWA": {
+      "name": "Botswana",
+      "coverage": "ghsl",
+      "cityCount": 7,
+      "reviewCount": 0
+    },
+    "BRA": {
+      "name": "Brazil",
+      "coverage": "ghsl",
+      "cityCount": 366,
+      "reviewCount": 5
+    },
+    "BRI": {
+      "name": "Brazilian Island",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "IOT": {
+      "name": "British Indian Ocean Territory",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "VGB": {
+      "name": "British Virgin Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "BRN": {
+      "name": "Brunei",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "coverage": "ghsl",
+      "cityCount": 6,
+      "reviewCount": 0
+    },
+    "BFA": {
+      "name": "Burkina Faso",
+      "coverage": "ghsl",
+      "cityCount": 19,
+      "reviewCount": 0
+    },
+    "BDI": {
+      "name": "Burundi",
+      "coverage": "ghsl",
+      "cityCount": 10,
+      "reviewCount": 0
+    },
+    "CPV": {
+      "name": "Cabo Verde",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "coverage": "ghsl",
+      "cityCount": 12,
+      "reviewCount": 0
+    },
+    "CMR": {
+      "name": "Cameroon",
+      "coverage": "ghsl",
+      "cityCount": 44,
+      "reviewCount": 3
+    },
+    "CAN": {
+      "name": "Canada",
+      "coverage": "ghsl",
+      "cityCount": 54,
+      "reviewCount": 1
+    },
+    "CYM": {
+      "name": "Cayman Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "CAF": {
+      "name": "Central African Republic",
+      "coverage": "ghsl",
+      "cityCount": 7,
+      "reviewCount": 1
+    },
+    "TCD": {
+      "name": "Chad",
+      "coverage": "ghsl",
+      "cityCount": 31,
+      "reviewCount": 2
+    },
+    "CHL": {
+      "name": "Chile",
+      "coverage": "ghsl",
+      "cityCount": 38,
+      "reviewCount": 1
+    },
+    "CHN": {
+      "name": "China",
+      "coverage": "ghsl",
+      "cityCount": 1967,
+      "reviewCount": 16
+    },
+    "CLP": {
+      "name": "Clipperton Island",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "COL": {
+      "name": "Colombia",
+      "coverage": "ghsl",
+      "cityCount": 83,
+      "reviewCount": 2
+    },
+    "COM": {
+      "name": "Comoros",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "COK": {
+      "name": "Cook Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "CSI": {
+      "name": "Coral Sea Islands",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "coverage": "ghsl",
+      "cityCount": 5,
+      "reviewCount": 0
+    },
+    "HRV": {
+      "name": "Croatia",
+      "coverage": "ghsl",
+      "cityCount": 5,
+      "reviewCount": 1
+    },
+    "CUB": {
+      "name": "Cuba",
+      "coverage": "ghsl",
+      "cityCount": 27,
+      "reviewCount": 1
+    },
+    "CUW": {
+      "name": "Cura\u00e7ao",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "coverage": "ghsl",
+      "cityCount": 4,
+      "reviewCount": 1
+    },
+    "CNM": {
+      "name": "Cyprus No Mans Area",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "CZE": {
+      "name": "Czechia",
+      "coverage": "ghsl",
+      "cityCount": 12,
+      "reviewCount": 0
+    },
+    "COD": {
+      "name": "Democratic Republic of the Congo",
+      "coverage": "ghsl",
+      "cityCount": 189,
+      "reviewCount": 2
+    },
+    "DNK": {
+      "name": "Denmark",
+      "coverage": "ghsl",
+      "cityCount": 5,
+      "reviewCount": 0
+    },
+    "ESB": {
+      "name": "Dhekelia Sovereign Base Area",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "DJI": {
+      "name": "Djibouti",
+      "coverage": "ghsl",
+      "cityCount": 3,
+      "reviewCount": 0
+    },
+    "DMA": {
+      "name": "Dominica",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "coverage": "ghsl",
+      "cityCount": 17,
+      "reviewCount": 0
+    },
+    "TLS": {
+      "name": "East Timor",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "coverage": "ghsl",
+      "cityCount": 34,
+      "reviewCount": 0
+    },
+    "EGY": {
+      "name": "Egypt",
+      "coverage": "ghsl",
+      "cityCount": 214,
+      "reviewCount": 1
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "coverage": "ghsl",
+      "cityCount": 12,
+      "reviewCount": 0
+    },
+    "GNQ": {
+      "name": "Equatorial Guinea",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "ERI": {
+      "name": "Eritrea",
+      "coverage": "ghsl",
+      "cityCount": 8,
+      "reviewCount": 1
+    },
+    "EST": {
+      "name": "Estonia",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "ETH": {
+      "name": "Ethiopia",
+      "coverage": "ghsl",
+      "cityCount": 184,
+      "reviewCount": 3
+    },
+    "FLK": {
+      "name": "Falkland Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "FRO": {
+      "name": "Faroe Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "FSM": {
+      "name": "Federated States of Micronesia",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "FJI": {
+      "name": "Fiji",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "FIN": {
+      "name": "Finland",
+      "coverage": "ghsl",
+      "cityCount": 6,
+      "reviewCount": 0
+    },
+    "FRA": {
+      "name": "France",
+      "coverage": "ghsl",
+      "cityCount": 80,
+      "reviewCount": 5
+    },
+    "PYF": {
+      "name": "French Polynesia",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "ATF": {
+      "name": "French Southern and Antarctic Lands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "GAB": {
+      "name": "Gabon",
+      "coverage": "ghsl",
+      "cityCount": 5,
+      "reviewCount": 0
+    },
+    "GMB": {
+      "name": "Gambia",
+      "coverage": "ghsl",
+      "cityCount": 3,
+      "reviewCount": 0
+    },
+    "GEO": {
+      "name": "Georgia",
+      "coverage": "ghsl",
+      "cityCount": 3,
+      "reviewCount": 0
+    },
+    "DEU": {
+      "name": "Germany",
+      "coverage": "ghsl",
+      "cityCount": 99,
+      "reviewCount": 2
+    },
+    "GHA": {
+      "name": "Ghana",
+      "coverage": "ghsl",
+      "cityCount": 53,
+      "reviewCount": 1
+    },
+    "GIB": {
+      "name": "Gibraltar",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "GRC": {
+      "name": "Greece",
+      "coverage": "ghsl",
+      "cityCount": 8,
+      "reviewCount": 0
+    },
+    "GRL": {
+      "name": "Greenland",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "GRD": {
+      "name": "Grenada",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "GUM": {
+      "name": "Guam",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "coverage": "ghsl",
+      "cityCount": 31,
+      "reviewCount": 0
+    },
+    "GGY": {
+      "name": "Guernsey",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "GIN": {
+      "name": "Guinea",
+      "coverage": "ghsl",
+      "cityCount": 24,
+      "reviewCount": 0
+    },
+    "GNB": {
+      "name": "Guinea-Bissau",
+      "coverage": "ghsl",
+      "cityCount": 3,
+      "reviewCount": 0
+    },
+    "GUY": {
+      "name": "Guyana",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "HTI": {
+      "name": "Haiti",
+      "coverage": "ghsl",
+      "cityCount": 21,
+      "reviewCount": 3
+    },
+    "HMD": {
+      "name": "Heard Island and McDonald Islands",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "HND": {
+      "name": "Honduras",
+      "coverage": "ghsl",
+      "cityCount": 16,
+      "reviewCount": 1
+    },
+    "HKG": {
+      "name": "Hong Kong S.A.R.",
+      "coverage": "ghsl",
+      "cityCount": 6,
+      "reviewCount": 1
+    },
+    "HUN": {
+      "name": "Hungary",
+      "coverage": "ghsl",
+      "cityCount": 13,
+      "reviewCount": 0
+    },
+    "ISL": {
+      "name": "Iceland",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "IND": {
+      "name": "India",
+      "coverage": "ghsl",
+      "cityCount": 1925,
+      "reviewCount": 17
+    },
+    "IOA": {
+      "name": "Indian Ocean Territories",
+      "coverage": "capital_fallback",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "coverage": "ghsl",
+      "cityCount": 369,
+      "reviewCount": 18
+    },
+    "IRN": {
+      "name": "Iran",
+      "coverage": "ghsl",
+      "cityCount": 169,
+      "reviewCount": 1
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "coverage": "ghsl",
+      "cityCount": 86,
+      "reviewCount": 0
+    },
+    "IRL": {
+      "name": "Ireland",
+      "coverage": "ghsl",
+      "cityCount": 5,
+      "reviewCount": 0
+    },
+    "IMN": {
+      "name": "Isle of Man",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "ISR": {
+      "name": "Israel",
+      "coverage": "ghsl",
+      "cityCount": 22,
+      "reviewCount": 2
+    },
+    "ITA": {
+      "name": "Italy",
+      "coverage": "ghsl",
+      "cityCount": 88,
+      "reviewCount": 2
+    },
+    "CIV": {
+      "name": "Ivory Coast",
+      "coverage": "ghsl",
+      "cityCount": 39,
+      "reviewCount": 0
+    },
+    "JAM": {
+      "name": "Jamaica",
+      "coverage": "ghsl",
+      "cityCount": 6,
+      "reviewCount": 0
+    },
+    "JPN": {
+      "name": "Japan",
+      "coverage": "ghsl",
+      "cityCount": 135,
+      "reviewCount": 2
+    },
+    "JEY": {
+      "name": "Jersey",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 1
+    },
+    "JOR": {
+      "name": "Jordan",
+      "coverage": "ghsl",
+      "cityCount": 16,
+      "reviewCount": 0
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "coverage": "ghsl",
+      "cityCount": 32,
+      "reviewCount": 0
+    },
+    "KEN": {
+      "name": "Kenya",
+      "coverage": "ghsl",
+      "cityCount": 45,
+      "reviewCount": 3
+    },
+    "KIR": {
+      "name": "Kiribati",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "KOS": {
+      "name": "Kosovo",
+      "coverage": "ghsl",
+      "cityCount": 6,
+      "reviewCount": 0
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "coverage": "ghsl",
+      "cityCount": 3,
+      "reviewCount": 0
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "coverage": "ghsl",
+      "cityCount": 8,
+      "reviewCount": 0
+    },
+    "LAO": {
+      "name": "Laos",
+      "coverage": "ghsl",
+      "cityCount": 3,
+      "reviewCount": 0
+    },
+    "LVA": {
+      "name": "Latvia",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "coverage": "ghsl",
+      "cityCount": 8,
+      "reviewCount": 0
+    },
+    "LSO": {
+      "name": "Lesotho",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "LBR": {
+      "name": "Liberia",
+      "coverage": "ghsl",
+      "cityCount": 9,
+      "reviewCount": 0
+    },
+    "LBY": {
+      "name": "Libya",
+      "coverage": "ghsl",
+      "cityCount": 13,
+      "reviewCount": 0
+    },
+    "LIE": {
+      "name": "Liechtenstein",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "coverage": "ghsl",
+      "cityCount": 4,
+      "reviewCount": 0
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "MAC": {
+      "name": "Macao S.A.R",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 1
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "coverage": "ghsl",
+      "cityCount": 22,
+      "reviewCount": 1
+    },
+    "MWI": {
+      "name": "Malawi",
+      "coverage": "ghsl",
+      "cityCount": 8,
+      "reviewCount": 0
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "coverage": "ghsl",
+      "cityCount": 43,
+      "reviewCount": 1
+    },
+    "MDV": {
+      "name": "Maldives",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "MLI": {
+      "name": "Mali",
+      "coverage": "ghsl",
+      "cityCount": 22,
+      "reviewCount": 0
+    },
+    "MLT": {
+      "name": "Malta",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "MHL": {
+      "name": "Marshall Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "MRT": {
+      "name": "Mauritania",
+      "coverage": "ghsl",
+      "cityCount": 6,
+      "reviewCount": 1
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "MEX": {
+      "name": "Mexico",
+      "coverage": "ghsl",
+      "cityCount": 182,
+      "reviewCount": 4
+    },
+    "MDA": {
+      "name": "Moldova",
+      "coverage": "ghsl",
+      "cityCount": 5,
+      "reviewCount": 0
+    },
+    "MCO": {
+      "name": "Monaco",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "MSR": {
+      "name": "Montserrat",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "MAR": {
+      "name": "Morocco",
+      "coverage": "ghsl",
+      "cityCount": 72,
+      "reviewCount": 1
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "coverage": "ghsl",
+      "cityCount": 44,
+      "reviewCount": 1
+    },
+    "MMR": {
+      "name": "Myanmar",
+      "coverage": "ghsl",
+      "cityCount": 113,
+      "reviewCount": 6
+    },
+    "NAM": {
+      "name": "Namibia",
+      "coverage": "ghsl",
+      "cityCount": 4,
+      "reviewCount": 0
+    },
+    "NRU": {
+      "name": "Nauru",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "NPL": {
+      "name": "Nepal",
+      "coverage": "ghsl",
+      "cityCount": 22,
+      "reviewCount": 0
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "coverage": "ghsl",
+      "cityCount": 43,
+      "reviewCount": 0
+    },
+    "NCL": {
+      "name": "New Caledonia",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "coverage": "ghsl",
+      "cityCount": 9,
+      "reviewCount": 0
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "coverage": "ghsl",
+      "cityCount": 10,
+      "reviewCount": 0
+    },
+    "NER": {
+      "name": "Niger",
+      "coverage": "ghsl",
+      "cityCount": 33,
+      "reviewCount": 0
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "coverage": "ghsl",
+      "cityCount": 425,
+      "reviewCount": 7
+    },
+    "NIU": {
+      "name": "Niue",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "NFK": {
+      "name": "Norfolk Island",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "PRK": {
+      "name": "North Korea",
+      "coverage": "ghsl",
+      "cityCount": 92,
+      "reviewCount": 4
+    },
+    "MKD": {
+      "name": "North Macedonia",
+      "coverage": "ghsl",
+      "cityCount": 7,
+      "reviewCount": 0
+    },
+    "CYN": {
+      "name": "Northern Cyprus",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "MNP": {
+      "name": "Northern Mariana Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "NOR": {
+      "name": "Norway",
+      "coverage": "ghsl",
+      "cityCount": 8,
+      "reviewCount": 2
+    },
+    "OMN": {
+      "name": "Oman",
+      "coverage": "ghsl",
+      "cityCount": 9,
+      "reviewCount": 0
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "coverage": "ghsl",
+      "cityCount": 299,
+      "reviewCount": 0
+    },
+    "PLW": {
+      "name": "Palau",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "PSX": {
+      "name": "Palestine",
+      "coverage": "ghsl",
+      "cityCount": 14,
+      "reviewCount": 3
+    },
+    "PAN": {
+      "name": "Panama",
+      "coverage": "ghsl",
+      "cityCount": 5,
+      "reviewCount": 0
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "coverage": "ghsl",
+      "cityCount": 10,
+      "reviewCount": 1
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "coverage": "ghsl",
+      "cityCount": 9,
+      "reviewCount": 1
+    },
+    "PER": {
+      "name": "Peru",
+      "coverage": "ghsl",
+      "cityCount": 43,
+      "reviewCount": 1
+    },
+    "PHL": {
+      "name": "Philippines",
+      "coverage": "ghsl",
+      "cityCount": 117,
+      "reviewCount": 13
+    },
+    "PCN": {
+      "name": "Pitcairn Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "POL": {
+      "name": "Poland",
+      "coverage": "ghsl",
+      "cityCount": 63,
+      "reviewCount": 0
+    },
+    "PRT": {
+      "name": "Portugal",
+      "coverage": "ghsl",
+      "cityCount": 9,
+      "reviewCount": 0
+    },
+    "PRI": {
+      "name": "Puerto Rico",
+      "coverage": "ghsl",
+      "cityCount": 3,
+      "reviewCount": 0
+    },
+    "QAT": {
+      "name": "Qatar",
+      "coverage": "ghsl",
+      "cityCount": 4,
+      "reviewCount": 0
+    },
+    "SRB": {
+      "name": "Republic of Serbia",
+      "coverage": "ghsl",
+      "cityCount": 13,
+      "reviewCount": 0
+    },
+    "COG": {
+      "name": "Republic of the Congo",
+      "coverage": "ghsl",
+      "cityCount": 6,
+      "reviewCount": 0
+    },
+    "ROU": {
+      "name": "Romania",
+      "coverage": "ghsl",
+      "cityCount": 29,
+      "reviewCount": 1
+    },
+    "RUS": {
+      "name": "Russia",
+      "coverage": "ghsl",
+      "cityCount": 253,
+      "reviewCount": 1
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "coverage": "ghsl",
+      "cityCount": 5,
+      "reviewCount": 0
+    },
+    "BLM": {
+      "name": "Saint Barthelemy",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "SHN": {
+      "name": "Saint Helena",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "KNA": {
+      "name": "Saint Kitts and Nevis",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "LCA": {
+      "name": "Saint Lucia",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "MAF": {
+      "name": "Saint Martin",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "SPM": {
+      "name": "Saint Pierre and Miquelon",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "VCT": {
+      "name": "Saint Vincent and the Grenadines",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "WSM": {
+      "name": "Samoa",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "SMR": {
+      "name": "San Marino",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "coverage": "ghsl",
+      "cityCount": 45,
+      "reviewCount": 0
+    },
+    "SCR": {
+      "name": "Scarborough Reef",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "SEN": {
+      "name": "Senegal",
+      "coverage": "ghsl",
+      "cityCount": 25,
+      "reviewCount": 1
+    },
+    "SER": {
+      "name": "Serranilla Bank",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "KAS": {
+      "name": "Siachen Glacier",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "SLE": {
+      "name": "Sierra Leone",
+      "coverage": "ghsl",
+      "cityCount": 12,
+      "reviewCount": 0
+    },
+    "SGP": {
+      "name": "Singapore",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "SXM": {
+      "name": "Sint Maarten",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "coverage": "ghsl",
+      "cityCount": 7,
+      "reviewCount": 0
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 0
+    },
+    "SLB": {
+      "name": "Solomon Islands",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "SOM": {
+      "name": "Somalia",
+      "coverage": "ghsl",
+      "cityCount": 32,
+      "reviewCount": 1
+    },
+    "SOL": {
+      "name": "Somaliland",
+      "coverage": "ghsl",
+      "cityCount": 7,
+      "reviewCount": 0
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "coverage": "ghsl",
+      "cityCount": 81,
+      "reviewCount": 0
+    },
+    "SGS": {
+      "name": "South Georgia and the Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "KOR": {
+      "name": "South Korea",
+      "coverage": "ghsl",
+      "cityCount": 49,
+      "reviewCount": 2
+    },
+    "SDS": {
+      "name": "South Sudan",
+      "coverage": "ghsl",
+      "cityCount": 17,
+      "reviewCount": 0
+    },
+    "SPI": {
+      "name": "Southern Patagonian Ice Field",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "ESP": {
+      "name": "Spain",
+      "coverage": "ghsl",
+      "cityCount": 85,
+      "reviewCount": 2
+    },
+    "PGA": {
+      "name": "Spratly Islands",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "coverage": "ghsl",
+      "cityCount": 21,
+      "reviewCount": 1
+    },
+    "SDN": {
+      "name": "Sudan",
+      "coverage": "ghsl",
+      "cityCount": 80,
+      "reviewCount": 0
+    },
+    "SUR": {
+      "name": "Suriname",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "SWE": {
+      "name": "Sweden",
+      "coverage": "ghsl",
+      "cityCount": 17,
+      "reviewCount": 0
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "coverage": "ghsl",
+      "cityCount": 17,
+      "reviewCount": 1
+    },
+    "SYR": {
+      "name": "Syria",
+      "coverage": "ghsl",
+      "cityCount": 39,
+      "reviewCount": 1
+    },
+    "STP": {
+      "name": "S\u00e3o Tom\u00e9 and Principe",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "coverage": "ghsl",
+      "cityCount": 21,
+      "reviewCount": 0
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "coverage": "ghsl",
+      "cityCount": 22,
+      "reviewCount": 0
+    },
+    "THA": {
+      "name": "Thailand",
+      "coverage": "ghsl",
+      "cityCount": 54,
+      "reviewCount": 1
+    },
+    "BHS": {
+      "name": "The Bahamas",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "TGO": {
+      "name": "Togo",
+      "coverage": "ghsl",
+      "cityCount": 17,
+      "reviewCount": 1
+    },
+    "TON": {
+      "name": "Tonga",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 1
+    },
+    "TTO": {
+      "name": "Trinidad and Tobago",
+      "coverage": "ghsl",
+      "cityCount": 3,
+      "reviewCount": 0
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "coverage": "ghsl",
+      "cityCount": 24,
+      "reviewCount": 0
+    },
+    "TUR": {
+      "name": "Turkey",
+      "coverage": "ghsl",
+      "cityCount": 174,
+      "reviewCount": 5
+    },
+    "TKM": {
+      "name": "Turkmenistan",
+      "coverage": "ghsl",
+      "cityCount": 10,
+      "reviewCount": 0
+    },
+    "TCA": {
+      "name": "Turks and Caicos Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "TUV": {
+      "name": "Tuvalu",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "USG": {
+      "name": "US Naval Base Guantanamo Bay",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "UGA": {
+      "name": "Uganda",
+      "coverage": "ghsl",
+      "cityCount": 25,
+      "reviewCount": 0
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "coverage": "ghsl",
+      "cityCount": 75,
+      "reviewCount": 6
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "coverage": "ghsl",
+      "cityCount": 15,
+      "reviewCount": 1
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "coverage": "ghsl",
+      "cityCount": 143,
+      "reviewCount": 2
+    },
+    "TZA": {
+      "name": "United Republic of Tanzania",
+      "coverage": "ghsl",
+      "cityCount": 45,
+      "reviewCount": 0
+    },
+    "UMI": {
+      "name": "United States Minor Outlying Islands",
+      "coverage": "country_only",
+      "cityCount": 0,
+      "reviewCount": 0
+    },
+    "VIR": {
+      "name": "United States Virgin Islands",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "USA": {
+      "name": "United States of America",
+      "coverage": "ghsl",
+      "cityCount": 344,
+      "reviewCount": 3
+    },
+    "URY": {
+      "name": "Uruguay",
+      "coverage": "ghsl",
+      "cityCount": 8,
+      "reviewCount": 0
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "coverage": "ghsl",
+      "cityCount": 72,
+      "reviewCount": 0
+    },
+    "VUT": {
+      "name": "Vanuatu",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "VAT": {
+      "name": "Vatican",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "coverage": "ghsl",
+      "cityCount": 70,
+      "reviewCount": 0
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "coverage": "ghsl",
+      "cityCount": 128,
+      "reviewCount": 3
+    },
+    "WLF": {
+      "name": "Wallis and Futuna",
+      "coverage": "capital_fallback",
+      "cityCount": 1,
+      "reviewCount": 0
+    },
+    "SAH": {
+      "name": "Western Sahara",
+      "coverage": "ghsl",
+      "cityCount": 2,
+      "reviewCount": 2
+    },
+    "YEM": {
+      "name": "Yemen",
+      "coverage": "ghsl",
+      "cityCount": 58,
+      "reviewCount": 0
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "coverage": "ghsl",
+      "cityCount": 30,
+      "reviewCount": 1
+    },
+    "ZWE": {
+      "name": "Zimbabwe",
+      "coverage": "ghsl",
+      "cityCount": 14,
+      "reviewCount": 1
+    },
+    "SWZ": {
+      "name": "eSwatini",
+      "coverage": "ghsl",
+      "cityCount": 1,
+      "reviewCount": 0
+    }
+  }
+}

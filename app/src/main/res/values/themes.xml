@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Flytly" parent="android:Theme.Material.Light.NoActionBar" />
+    <color name="flytly_launch_background">#FBFCFD</color>
+    <color name="flytly_icon_background">#FAFAFA</color>
+    <bool name="flytly_light_system_bars">true</bool>
+    <style name="Theme.Flytly.Starting" parent="Theme.Flytly.Starting.Base" />
+    <style name="Theme.Flytly.Starting.Base" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/flytly_launch_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/flytly_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Flytly</item>
+        <item name="android:windowLightStatusBar">@bool/flytly_light_system_bars</item>
+    </style>
+</resources>

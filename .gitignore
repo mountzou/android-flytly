@@ -1,0 +1,58 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+.kotlin/
+local.properties
+
+firebase-debug.log*
+firestore-debug.log*
+*-emulator-debug.log*
+
+# Private release signing material must stay outside the repository.
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+.release-signing/
+
+# Machine state, dependencies and generated output.
+/.idea/
+**/build/
+**/node_modules/
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+!.env.example
+
+# Original QA output can contain signed-in identities, tokens and personal data.
+# The repository keeps a curated archival summary; binary backups use a draft release.
+/artifacts/
+/owner-archive/
+
+# Restore separately from the owner-only archive or download from your Firebase app.
+/app/google-services.json
+*service-account*.json
+*serviceAccount*.json
+*.key
+*.p8
+*.pem
+*.apk
+*.aab
+*.apks
+*.zip
+*.bundle

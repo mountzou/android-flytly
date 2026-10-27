@@ -1,0 +1,106 @@
+{
+  "archiveDate": "2026-10-27",
+  "application": "Flytly Android",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "package": "com.mountzou.flytly",
+  "publishedToGooglePlay": false,
+  "staticVerification": {
+    "versionName": "1.0.0",
+    "versionCode": 1,
+    "package": "com.mountzou.flytly",
+    "artifacts": {
+      "Flytly-1.0.0-1.aab": {
+        "sha256": "ca37a8975e7178ee456de9f943fa2abfcea2a9975e4e9473be00e2ddef1e7f50",
+        "bytes": 82814595
+      },
+      "Flytly-1.0.0-1.apk": {
+        "sha256": "321eb1e2ddf50fe25ae803908f5609253db857da3e45a465e13ade391b7588be",
+        "bytes": 130095071
+      },
+      "flytly-upload-certificate.pem": {
+        "sha256": "dc798649ec6865f4087c9c4deef0604ec9bd0096e4eeb08639501ee1e912d53d",
+        "bytes": 1530
+      }
+    },
+    "signerSHA256": "fe2fa77f1710845fca1d2c3ff7e670fa3124319a1eb2943fbb5fc71efd6aaca7",
+    "apkSignatureSchemes": [
+      "v2",
+      "v3"
+    ],
+    "aabSignature": "verified; expected self-signed upload certificate",
+    "unitTests": {
+      "tests": 44,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "lintIssues": {
+      "Warning": 81
+    },
+    "debuggable": false,
+    "backupEnabled": false,
+    "releaseAppCheck": "Play Integrity; debug provider absent",
+    "permissions": [
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "com.google.android.providers.gsf.permission.READ_GSERVICES",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.WAKE_LOCK",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "com.mountzou.flytly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "native64BitAlignment16KB": true,
+    "zipAlignment16KB": true,
+    "firebaseUploadCertificateRegistered": true,
+    "playStoreUploadPerformed": false,
+    "playAppSigningCertificateRegistered": false,
+    "playAttestedAuthenticationSyncAndJevTested": false
+  },
+  "runtimeVerification": {
+    "device": "Flytly_Release_QA",
+    "serial": "emulator-5556",
+    "androidApi": "37",
+    "runtimePageSizeBytes": 4096,
+    "installedFromFinalAab": true,
+    "installedSplitHashesMatch": true,
+    "signedOutEntryAndVersion": true,
+    "developmentAtlasExtrasIgnored": true,
+    "compactPortrait": true,
+    "compactLandscapeWithScroll": true,
+    "googleProviderEntry": "Attempted; Google Play services add-account flow returned generic error; authentication not verified",
+    "realGoogleAuthentication": false,
+    "realAppleAuthentication": false,
+    "realAccountDeletion": false,
+    "playIntegrityTokenAndJev": false,
+    "primarySignedInDeviceModified": false,
+    "qaEmulatorStoppedAfterVerification": true
+  },
+  "sourceManifestSHA256": "b3d25c036da058fe906e57249039250e489b887bb5ffd05b487ab0e826e8a394",
+  "archiveExclusions": [
+    "private signing keys/passwords",
+    "production Firebase client configuration",
+    "raw QA artifacts and personal account data",
+    "IDE state, local SDK settings and generated build output"
+  ],
+  "historicalEvidence": "Signed-candidate reports retained separately; unit tests, release lint and catalog fingerprint checks rechecked before archival.",
+  "sourceSnapshotBeforeArchive": {
+    "files": 701,
+    "changed": 0,
+    "missing": 0
+  },
+  "archivalRecheck": {
+    "date": "2026-10-27",
+    "unitTests": 44,
+    "failures": 0,
+    "errors": 0,
+    "lintIssues": {
+      "Warning": 81
+    },
+    "atlasAndTimezoneCatalogsVerified": true,
+    "productSourceFilesMatchSignedCandidate": true,
+    "newArchiveFilesWhitespaceCheck": "passed",
+    "preexistingWhitespacePreserved": "Original license text, Windows wrapper CRLF and existing blank EOF lines retained to preserve signed-source fingerprints."
+  }
+}

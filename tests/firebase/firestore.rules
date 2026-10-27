@@ -1,0 +1,72 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    // One place has one state. Removed entries are retained to prevent an old
+    // installation's migration from resurrecting a deletion. No UID fields:
+    // ownership is immutable in the path, and all extra fields are rejected.
+    function isValidTravelPlace(placeKey) {
+      let data = request.resource.data;
+      return data.keys().hasOnly(['version', 'kind', 'placeID', 'status', 'updatedAt'])
+          && data.keys().hasAll(['version', 'kind', 'placeID', 'status', 'updatedAt'])
+          && data.version == 1
+          && data.kind in ['city', 'country']
+          && data.placeID is string
+          && data.placeID.size() > 0 && data.placeID.size() <= 200
+          && !data.placeID.matches('.*[/].*')
+          && placeKey == data.kind + ':' + data.placeID
+          && data.status in ['visited', 'wishlist', 'removed']
+          && data.updatedAt is timestamp && data.updatedAt == request.time;
+    }
+
+    // A per-installation receipt makes retries idempotent. Migration never
+    // resets a completed source; sequence numbers never move backwards.
+    function isValidTravelSyncSource(sourceId) {
+      let data = request.resource.data;
+      return sourceId.matches('[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}')
+          && data.keys().hasOnly(['version', 'migrationComplete', 'lastSequence', 'updatedAt'])
+          && data.keys().hasAll(['version', 'migrationComplete', 'lastSequence', 'updatedAt'])
+          && data.version == 1 && data.migrationComplete is bool
+          && data.lastSequence is int && data.lastSequence >= 0
+          && data.lastSequence <= 9007199254740991
+          && data.updatedAt is timestamp && data.updatedAt == request.time;
+    }
+
+    match /users/{userId}/travelPlaces/{placeKey} {
+      allow read: if isOwner(userId);
+      allow create: if isOwner(userId) && isValidTravelPlace(placeKey);
+      allow update: if isOwner(userId) && isValidTravelPlace(placeKey)
+                    && request.resource.data.kind == resource.data.kind
+                    && request.resource.data.placeID == resource.data.placeID;
+      allow delete: if false;
+    }
+
+    match /users/{userId}/travelSyncSources/{sourceId} {
+      allow read: if isOwner(userId);
+      allow create: if isOwner(userId) && isValidTravelSyncSource(sourceId)
+                    && request.resource.data.lastSequence == 0;
+      allow update: if isOwner(userId) && isValidTravelSyncSource(sourceId)
+                    && (!resource.data.migrationComplete || request.resource.data.migrationComplete)
+                    && request.resource.data.lastSequence >= resource.data.lastSequence;
+      allow delete: if false;
+    }
+
+    match /users/{userId}/profile/travelPreferences {
+      allow read, write: if request.auth != null
+                         && request.auth.uid == userId;
+    }
+
+    // Usage is written only by the Admin SDK inside the callable function.
+    match /jevUsage/{userId}/{document=**} {
+      allow read, write: if false;
+    }
+
+    match /jevUsageGlobal/{period} {
+      allow read, write: if false;
+    }
+  }
+}

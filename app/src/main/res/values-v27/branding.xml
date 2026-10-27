@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Flytly.Starting" parent="Theme.Flytly.Starting.Base">
+        <item name="android:windowLightNavigationBar">@bool/flytly_light_system_bars</item>
+    </style>
+</resources>

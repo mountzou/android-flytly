@@ -1,0 +1,4 @@
+<resources>
+    <!-- Public Meta app ID. Keep empty until the Android integration is configured. -->
+    <string name="instagram_stories_app_id" translatable="false"></string>
+</resources>

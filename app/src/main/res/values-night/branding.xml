@@ -1,0 +1,5 @@
+<resources>
+    <color name="flytly_launch_background">#111111</color>
+    <color name="flytly_icon_background">#171717</color>
+    <bool name="flytly_light_system_bars">false</bool>
+</resources>
