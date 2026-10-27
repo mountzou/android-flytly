@@ -11,6 +11,8 @@ Production Firebase configuration, upload signing keys, personal account data,
 raw QA output and generated build folders are excluded from Git. The signed
 AAB/APK and an owner restore package are retained in the repository's **draft**
 release `archive-1.0.0-1`, accessible to users with repository write access.
+Temporarily unarchive the repository before retrieving the draft release; see
+the restore instructions for the exact steps.
 Restore `app/google-services.json` before building; the checked-in
 `app/google-services.example.json` is a template, not production configuration.
 

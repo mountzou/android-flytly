@@ -22,11 +22,20 @@ development resumes.
 
 ## Restore source and configuration
 
+GitHub hides draft releases while a repository is Archived, including for its
+owner. **The owner must temporarily unarchive this repository before downloading
+the signed binaries or private restore ZIP.** This restores access to the
+existing draft; it does not publish it. The public source can be cloned while
+the repository remains archived.
+
 ```sh
+gh repo unarchive mountzou/android-flytly --yes
 git clone https://github.com/mountzou/android-flytly.git
 cd android-flytly
 git switch --detach archive-1.0.0-1
 gh release download archive-1.0.0-1 --repo mountzou/android-flytly --dir owner-archive
+# After downloading, return the repository to read-only archival state:
+gh repo archive mountzou/android-flytly --yes
 ```
 
 The owner restore ZIP contains the original Android `google-services.json`,
